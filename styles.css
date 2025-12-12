@@ -23,6 +23,11 @@ main {
     background-size: cover;
     background-position: bottom center;
 }
+
+main h2 {
+    font-family: "Work Sans";
+    font-size: 3rem;
+}
 header {
     display: flex;
     align-items: flex-end;
@@ -32,6 +37,7 @@ header {
 nav {
     margin: 1rem 0;
     display: flex;
+    font-family: "Work Sans";
 }
 
 nav > h1 {
@@ -47,8 +53,21 @@ nav > h1 {
     background-color: black;
     opacity: 0.29;
     display: flex;
-    /*align-items: center;
-    justify-content: center;*/
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.call-to-action {
+    position: relative;
+    z-index: 2; /* higher than overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    text-align: center;
 }
 
 footer {
