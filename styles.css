@@ -11,8 +11,19 @@ html {
 body {
     height: 100%vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
-
+main {
+    flex: 1;
+    background-image: url("assets/landing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*padding-bottom: 5rem;*/
+    background-position: bottom center;
+}
 header {
     display: flex;
     align-items: flex-end;
@@ -30,6 +41,9 @@ nav > h1 {
 
 .logo {
     margin: 1rem;
+}
+.main-img {
+    /*height: ;*/
 }
 
 footer {
