@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    background-color: #decbb7;
+}
+
+nav {
+    margin: 1rem 0;
+    display: flex;
+}
+
+nav > h1 {
+    margin: 0 1rem;
+}
+
+.logo {
+    margin: 1rem;
+}
+
+footer {
+    height: 5rem;
+    background-color: #f7f7f6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
