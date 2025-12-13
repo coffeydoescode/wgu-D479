@@ -3,6 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="styles.css" />
         <title>Discover Taniti</title>
     </head>
@@ -10,19 +16,31 @@
         <header>
             <img
                 class="logo"
-                height="200px"
+                height="150px"
                 src="assets/logo.jpg"
                 alt="black and white palm tree"
             />
             <nav>
-                <h1>Things to Do</h1>
-                <h1>FAQ</h1>
-                <h1>Contact Us</h1>
+                <div class="dropdown">
+                    <div class="dropH1">
+                        <h1>Things to Do</h1>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="dining-entertainment.html"
+                            ><h1>Dining & Entertainment</h1></a
+                        >
+                        <a href="lodging-transportation.html"
+                            ><h1>Lodging & Transportation</h1></a
+                        >
+                    </div>
+                </div>
+
+                <a href="faq.html"><h1>FAQ</h1></a>
+                <a href="contact.html"><h1>Contact Us</h1></a>
             </nav>
         </header>
         <main></main>
-        <footer>
-            <p>Hello World</p>
-        </footer>
+        <footer></footer>
     </body>
 </html>
