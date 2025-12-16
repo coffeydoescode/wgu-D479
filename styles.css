@@ -36,6 +36,9 @@ main.index {
 }
 
 main.content {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
     align-self: center;
     flex: 1;
     position: relative;
@@ -44,6 +47,10 @@ main.content {
 main h2 {
     font-family: "Work Sans";
     font-size: 3rem;
+}
+
+main h3 {
+    margin-bottom: unset;
 }
 
 .page-title {
