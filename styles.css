@@ -20,10 +20,10 @@ header {
     z-index: 3;
 }
 
-main {
+/*main {
     flex: 1;
     position: relative;
-}
+}*/
 
 main.index {
     flex: 1;
@@ -35,9 +35,20 @@ main.index {
     background-position: bottom center;
 }
 
+main.content {
+    align-self: center;
+    flex: 1;
+    position: relative;
+}
+
 main h2 {
     font-family: "Work Sans";
     font-size: 3rem;
+}
+
+.page-title {
+    font-family: "Work Sans";
+    align-self: center;
 }
 header {
     display: flex;
@@ -53,6 +64,16 @@ nav {
 
 nav > h1 {
     margin: 0 1rem;
+}
+
+.content-img {
+    /*width: 75vw;*/
+    height: 350px;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
