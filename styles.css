@@ -38,7 +38,7 @@ main.index {
 main.content {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 70vw;
     align-self: center;
     flex: 1;
     position: relative;
@@ -51,6 +51,10 @@ main h2 {
 
 main h3 {
     margin-bottom: unset;
+}
+
+main p {
+    font-size: 18px;
 }
 
 .page-title {
