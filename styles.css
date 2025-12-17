@@ -19,12 +19,18 @@ body {
 
 header {
     z-index: 3;
+    display: flex;
+    align-items: flex-end;
+    background-color: #decbb7;
 }
 
-/*main {
-    flex: 1;
-    position: relative;
-}*/
+header a:visited {
+    color: black;
+}
+
+main h3 {
+    margin-bottom: unset;
+}
 
 main.index {
     flex: 1;
@@ -36,6 +42,10 @@ main.index {
     background-position: bottom center;
 }
 
+.index h2 {
+    font-size: 3rem;
+}
+
 main.content {
     display: flex;
     flex-direction: column;
@@ -45,15 +55,6 @@ main.content {
     position: relative;
 }
 
-main h2 {
-    font-family: "Work Sans";
-    font-size: 3rem;
-}
-
-main h3 {
-    margin-bottom: unset;
-}
-
 main p {
     font-size: 18px;
 }
@@ -61,11 +62,6 @@ main p {
 .page-title {
     font-family: "Work Sans";
     align-self: center;
-}
-header {
-    display: flex;
-    align-items: flex-end;
-    background-color: #decbb7;
 }
 
 nav {
@@ -122,6 +118,24 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited,
+a:link {
+    color: black;
+}
+
+footer a:hover {
+    color: white;
 }
 
 /* Navbar container */
