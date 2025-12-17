@@ -55,7 +55,8 @@ main.content {
     position: relative;
 }
 
-main p {
+main p,
+li {
     font-size: 18px;
 }
 
@@ -113,18 +114,27 @@ nav > h1 {
 }
 
 footer {
-    height: 5rem;
+    min-height: 5rem;
     background-color: #decbb7;
     left: 0;
     bottom: 0;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     font-size: 1.5rem;
 }
 
+footer div {
+    margin-left: 1rem;
+}
+
+.credit {
+    font-style: italic;
+    font-size: 12px;
+    margin: 0 15px;
+}
 footer a {
     text-decoration: none;
 }
